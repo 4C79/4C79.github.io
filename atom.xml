@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-03-20T09:39:23.291Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>近期学习研究进展 3月23日</title>
+    <link href="http://example.com/2023/03/20/first/"/>
+    <id>http://example.com/2023/03/20/first/</id>
+    <published>2023-03-20T09:37:25.000Z</published>
+    <updated>2023-03-20T09:39:23.291Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="近期学习研究进展-3月23日"><a href="#近期学习研究进展-3月23日" class="headerlink" title="近期学习研究进展 3月23日"></a>近期学习研究进展 <em>3月23日</em></h1><p>[TOC]</p><h2 id="3-17无人机飞行实验及数据分析"><a href="#3-17无人机飞行实验及数据分析" class="headerlink" title="3.17无人机飞行实验及数据分析"></a>3.17无人机飞行实验及数据分析</h2><h3 id="实验任务"><a href="#实验任务" class="headerlink" title="实验任务"></a>实验任务</h3><p>​人工控制无人机进行</p><ol><li>不同高度下降后位置偏移</li><li>不同高度无人机悬停位置偏移</li><li>无人机悬挂物体移动测试</li></ol><p>​无人机进行定轨飞行实验</p><h3 id="实验设备及地点"><a href="#实验设备及地点" class="headerlink" title="实验设备及地点"></a>实验设备及地点</h3><p>​本次实验采取大疆经纬 Matrice 200 V2 系列无人机,50mm焦距镜头（未用到）。由于电量问题飞行两次</p><ol><li>开机时长 1.5h，飞行时长28min ，电池损耗80%（低电量后会自动返航</li><li>开机时长1h，飞行时长15min ，未记录电池损耗</li></ol><p>​全程在西一楼广场处飞行，晴天，低空风速2m&#x2F;s,阵风4m&#x2F;s，风向为 南偏西顺时针5°：</p><h3 id="实验数据分析"><a href="#实验数据分析" class="headerlink" title="实验数据分析"></a>实验数据分析</h3><h4 id="不同高度无人机下降后的距离偏移"><a href="#不同高度无人机下降后的距离偏移" class="headerlink" title="不同高度无人机下降后的距离偏移"></a>不同高度无人机下降后的距离偏移</h4><p>​分别在5m,10m,20m高度进行5组实验，水平平均误差为：（0.6cm，13.3cm），这里误差的主要来源为风力影响，但是由于无人机会自行抵御风力影响，所以无法更加定量的测试具体误差程度。</p><p><img src="https://4c79.oss-cn-beijing.aliyuncs.com/img/202303191543375.png" alt="LEU"></p><h4 id="不同高度无人机悬停位置偏移"><a href="#不同高度无人机悬停位置偏移" class="headerlink" title="不同高度无人机悬停位置偏移"></a>不同高度无人机悬停位置偏移</h4><p>​无人机在空中会自动对抗阵风，基本不会产生姿态偏移，但是会受到风力影响产生位置偏移，5m-10m高度时在2m&#x2F;s的风速下会产生0.1m&#x2F;s的水平位移. (由云台系统上HS进行数据测试)</p><p><img src="https://4c79.oss-cn-beijing.aliyuncs.com/img/202303191543782.gif" alt="IMG_5061 00_00_00-00_00_30" style="zoom:28%;" /><img src="C:\FFOutput\IMG_5049 00_00_00-00_00_30.gif" alt="IMG_5049 00_00_00-00_00_30" style="zoom:28%;" /><img src="https://4c79.oss-cn-beijing.aliyuncs.com/img/202303191544009.gif" alt="IMG_5055 00_00_00-00_00_30" style="zoom:28%;" /></p><h4 id="无人机悬挂物体移动测试"><a href="#无人机悬挂物体移动测试" class="headerlink" title="无人机悬挂物体移动测试"></a>无人机悬挂物体移动测试</h4><p>​受限于测试物，实验略显简陋，但总体而言是可以达到点对点运动操作。视频如下所示。</p><p><img src="C:\FFOutput\IMG_5070 00_00_00-00_00_30.gif" alt="IMG_5070 00_00_00-00_00_30" style="zoom: 43%;" /><img src="https://4c79.oss-cn-beijing.aliyuncs.com/img/202303191544003.gif" alt="IMG_5071 00_00_00-00_00_30" style="zoom: 43%;" /></p><p>​无人机在进行动作时，主要是作业时运动会受到携带重物的影响，具体误差尚未测试（此次中的携带中午为2本书籍，总重量约为1kg）</p><h4 id="无人机进行定轨飞行实验"><a href="#无人机进行定轨飞行实验" class="headerlink" title="无人机进行定轨飞行实验"></a>无人机进行定轨飞行实验</h4><p>​初步尝试了大疆平台提供的无人机定轨实验，基本上时按照航线所规划来飞行，但具体每一动作后所产生的误差尚未测试。另外网上查阅资料显示可以或许可以通过安卓开发来初步进行绘制实际地图轨迹进行飞行。</p><img src="https://4c79.oss-cn-beijing.aliyuncs.com/img/202303191544139.gif" alt="IMG_5069 00_00_00-00_00_30" style="zoom:50%;"  />]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;近期学习研究进展-3月23日&quot;&gt;&lt;a href=&quot;#近期学习研究进展-3月23日&quot; class=&quot;headerlink&quot; title=&quot;近期学习研究进展 3月23日&quot;&gt;&lt;/a&gt;近期学习研究进展 &lt;em&gt;3月23日&lt;/em&gt;&lt;/h1&gt;&lt;p&gt;[TOC]&lt;/p&gt;
+&lt;h2</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2023/03/20/hello-world/"/>
+    <id>http://example.com/2023/03/20/hello-world/</id>
+    <published>2023-03-20T08:34:43.315Z</published>
+    <updated>2023-03-20T08:34:43.315Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
