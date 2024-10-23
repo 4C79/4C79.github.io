@@ -1,0 +1,34 @@
+@article{HSIDMamba,
+    Author = {Yang Liu, JiaHua Xiao, Xiang Song, and Yu Guo},
+    Title = {HSIDMamba: Exploring Bidirectional State-Space Models for Hyperspectral Denoising},
+    Note = {arXiv:2404.09697},
+    file = {MambaHSID.pdf},
+    abstract = {Effectively modeling global context information in hyperspectral image (HSI) denoising is crucial, but prevailing methods using convolution or transformers still face localized or computational efficiency limitations. Inspired by the emerging Selective State Space Model (Mamba) with nearly linear computational complexity and efficient long-term modeling, we present a novel HSI denoising network named HSIDMamba (HSDM). HSDM is tailored to exploit the capture of potential spatial-spectral dependencies effectively and efficiently for HSI denoising. In particular, HSDM comprises multiple Hyperspectral Continuous Scan Blocks (HCSB) to strengthen spatial-spectral interactions. HCSB links forward and backward scans and enhances information from eight directions through the State Space Model (SSM), strengthening the context representation learning of HSDM and improving denoising performance more effectively. In addition, to enhance the utilization of spectral information and mitigate the degradation problem caused by long-range scanning, spectral attention mechanism. Extensive evaluations against HSI denoising benchmarks validate the superior performance of HSDM, achieving state-of-the-art performance and surpassing the efficiency of the transformer method SERT by 31%.},
+}
+
+@inproceedings{RAS2S,
+    Author = {JiaHua Xiao, Yang Liu , and Xing Wei},
+    Title = {Region-Aware Sequence-to-Sequence Learning for Hyperspectral Denoising},
+    file = {ECCV24_RAS2S.pdf},
+    note = {The 18th European Conference on Computer Vision, ECCV 2024},
+    year = {2024},
+    abstract = {Proper spectral modeling within hyperspectral image (HSI) is critical yet highly challenging for HSI denoising. In contrast to existing methods that struggle between effectiveness and flexibility in modeling long-range spectral dependencies and directly explore spatial-spectral information without region discrimination, we introduce RAS2S—a simple yet effective sequence-to-sequence (Seq2Seq) learning framework for better HSI denoising. RAS2S treats HSI denoising as a Seq2Seq translation problem, which converts the noisy spectral sequence to its clean ones in an autoregressive fashion. In addition, spatial-spectral information exploration without region discrimination contradicts the intrinsic spatial-spectral diversity of HSIs, leading to negative interference from spatial-spectral unrelated regions. Thus we propose a novel spatial-spectral region-aware module to distinctively perceive the semantic regions with different spatial-spectral representations, maximizing the spectral modeling potential of Seq2Seq learning.  With such an improved Seq2Seq learning paradigm, RAS2S not only shows huge potential in capturing long-range spectral dependencies, but also maintains the flexibility to handle diverse HSIs. Extensive experiments demonstrate that RAS2S outperforms existing state-of-the-art methods quantitatively and qualitatively with a minimal model size, merely 0.08M.},
+}
+
+@inproceedings{SACT,
+    Author = {Yang Liu, Yantao Ji, JiaHua Xiao, and Yu Guo},
+    Title = {Spectral Aggregation Cross-Square Transformer for Hyperspectral Image Denoising},
+    file = {ICPR24_SACT.pdf},
+    note = {The 27th The International Conference on Pattern Recognition, ICPR2024},
+    year = {2024},
+    abstract = {Hyperspectral image(HSI) denoising addresses noise impact during image acquisition. Transformers have gained notable prominence in the field of denoising, but their quadratic self-attention complexity poses computational challenges, hindering global information processing. Classical window-based self-attention limits non-local information flow, hampering large-scale object capture in HSI. Furthermore, spectral variations among neighboring bands introduce redundancy, which burdens the model and diminishes token variability, resulting in over-smoothing in the attention map. To address these issues, we propose a novel method, named Spectral Aggregation Cross-Square Transformer(SACT). We introduce a cross-square self-attention mechanism to enhance information exchange between windows, capturing long-range dependencies within spatial intra-spectrum from multiple perspectives. Spectrally, it extends the attention region horizontally, surrounding, and vertically, exploring omnidirectional spatial correlations among different receptive windows. Additionally, a spatial-spectral aggregation self-attention module is designed to capture global contextual dependencies across spatial and spectral dimensions, reducing spectral redundancy computation. Our method has evaluated synthetic and real hyperspectral datasets and shows SACT's effectiveness in enhancing both quantitative and qualitative HSI denoising performance.}
+}
+
+@inproceedings{FIDNET,
+    Author = {JiaHua Xiao, Yang Liu, and Xing Wei},
+    Title = {Bridging Fourier and Spatial-Spectral Domains for Hyperspectral Image Denoising},
+    file = {ACMMM_FIDNet.pdf},
+    note = {Proceedings of the 32nd ACM International Conference on Multimedia, (MM'24)},
+    year = {2024},
+    abstract = {Remarkable progresses have been made in hyperspectral image (HSI) denoising. However, the majority of existing methods are predominantly confined to the spatial-spectral domain, overlooking the untapped potential inherent in the Fourier domain. This paper presents a novel approach to address HSI denoising by bridging the information from the Fourier and spatial-spectral domains. Our method highlights key insights into the Fourier properties within spatial and spectral domains through the Fourier transform. Specifically, we note that the amplitude inherently embody noise and photon reflection characteristics, while the phase holds structural information. These insights unveil new perspectives on the physical properties of HSIs, motivating us to leverage complementary information exchange between Fourier and spatial-spectral domains. To this end, we introduce the Fourier-prior Integration Denoising Network (FIDNet), a potent yet straightforward approach that utilizes Fourier insights to synergistically interact with spatial-spectral domains for superior HSI denoising. In FIDNet, we independently extract spatial and Fourier features through dual branches and merge these representations to enhance spectral evolution modeling through the inherent structure consistency constraints and continuing reflection variation revealed in Fourier prior. Our proposed method demonstrates robust generalization across synthetic and real-world benchmark datasets, achieves comparable results with state-of-the-art methods in both quantitative quality and visual results.},
+}
