@@ -2,14 +2,6 @@
 <html>
 
   <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E6CBM5MZ9D"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-E6CBM5MZ9D');
-  </script>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -74,6 +66,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                    
                 <a class="nav-item nav-link" href="https://4c79.github.io/research">Research</a>
                    
+                <a class="nav-item nav-link" href="https://4c79.github.io/projects">Projects</a>
+                   
                 <a class="nav-item nav-link" href="https://4c79.github.io/volunteer">Volunteer</a>
             
         </div>
@@ -96,7 +90,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <div class="jumbotron">
   <h3 id="preprints">Preprints</h3>
-  <ol class="bibliography"><li><style>
+  <ol class="bibliography" reversed="reversed"><li><style>
 .btn{
     margin-bottom:5px;
     padding-top:0px;
@@ -117,10 +111,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="HSIDMamba">Yang Liu, X. S., JiaHua Xiao, &amp; Guo, Y. <i>HSIDMamba: Exploring Bidirectional State-Space Models for Hyperspectral Denoising</i>. arXiv:2404.09697.</span></div>
+<div class="text-justify"><span id="hsidmamba">Yang Liu, X. S., JiaHua Xiao, &amp; Guo, Y. <i>HSIDMamba: Exploring Bidirectional State-Space Models for Hyperspectral Denoising</i>. arXiv:2404.09697.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="HSIDMamba">Yang Liu, X. S., JiaHua Xiao, &amp; Guo, Y. <i>HSIDMamba: Exploring Bidirectional State-Space Models for Hyperspectral Denoising</i>. arXiv:2404.09697.</span></div> -->
+<!-- <span id="hsidmamba">Yang Liu, X. S., JiaHua Xiao, &amp; Guo, Y. <i>HSIDMamba: Exploring Bidirectional State-Space Models for Hyperspectral Denoising</i>. arXiv:2404.09697.</span></div> -->
 
 
 
@@ -132,16 +126,16 @@ pre{
 
 
 
-<button class="btn btn-danger btm-sm" onclick="toggleBibtexHSIDMamba()">BIB</button>
+<button class="btn btn-danger btm-sm" onclick="toggleBibtexhsidmamba()">BIB</button>
 
 
 
-<button class="btn btn-warning btm-sm" onclick="toggleAbstractHSIDMamba()">ABSTRACT</button>
+<button class="btn btn-warning btm-sm" onclick="toggleAbstracthsidmamba()">ABSTRACT</button>
 
 
 
-<div id="aHSIDMamba" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>@article{HSIDMamba,
+<div id="ahsidmamba" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@unpublished{hsidmamba,
   author = {Yang Liu, JiaHua Xiao, Xiang Song and Guo, Yu},
   title = {HSIDMamba: Exploring Bidirectional State-Space Models for Hyperspectral Denoising},
   note = {arXiv:2404.09697},
@@ -151,21 +145,21 @@ pre{
 </div>
 
 
-<div id="bHSIDMamba" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<div id="bhsidmamba" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
 <pre>Effectively modeling global context information in hyperspectral image (HSI) denoising is crucial, but prevailing methods using convolution or transformers still face localized or computational efficiency limitations. Inspired by the emerging Selective State Space Model (Mamba) with nearly linear computational complexity and efficient long-term modeling, we present a novel HSI denoising network named HSIDMamba (HSDM). HSDM is tailored to exploit the capture of potential spatial-spectral dependencies effectively and efficiently for HSI denoising. In particular, HSDM comprises multiple Hyperspectral Continuous Scan Blocks (HCSB) to strengthen spatial-spectral interactions. HCSB links forward and backward scans and enhances information from eight directions through the State Space Model (SSM), strengthening the context representation learning of HSDM and improving denoising performance more effectively. In addition, to enhance the utilization of spectral information and mitigate the degradation problem caused by long-range scanning, spectral attention mechanism. Extensive evaluations against HSI denoising benchmarks validate the superior performance of HSDM, achieving state-of-the-art performance and surpassing the efficiency of the transformer method SERT by 31%.</pre>
 </div>
 
 <script>
-function toggleBibtexHSIDMamba(parameter) {
-    var x= document.getElementById('aHSIDMamba');
+function toggleBibtexhsidmamba(parameter) {
+    var x= document.getElementById('ahsidmamba');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
         x.style.display = 'none';
     }
 }
-function toggleAbstractHSIDMamba(parameter) {
-    var x= document.getElementById('bHSIDMamba');
+function toggleAbstracthsidmamba(parameter) {
+    var x= document.getElementById('bhsidmamba');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
@@ -177,8 +171,12 @@ function toggleAbstractHSIDMamba(parameter) {
 </div>
 
 <div class="jumbotron">
+  <h3 id="refereed-journal-articles">Refereed journal articles</h3>
+</div>
+
+<div class="jumbotron">
   <h3 id="refereed-conference-proceedings">Refereed conference proceedings</h3>
-  <ol class="bibliography"><li><style>
+  <ol class="bibliography" reversed="reversed"><li><style>
 .btn{
     margin-bottom:5px;
     padding-top:0px;
@@ -199,89 +197,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="SACT">Yang Liu, J. H. X., Yantao Ji, &amp; Guo, Y. (2024). <i>Spectral Aggregation Cross-Square Transformer for Hyperspectral Image Denoising</i>. The 27th The International Conference on Pattern Recognition, ICPR2024.</span></div>
+<div class="text-justify"><span id="FIDNET">JiaHua Xiao, Y. L., &amp; Wei, X. (2024). <i>Bridging Fourier and Spatial-Spectral Domains for Hyperspectral Image Denoising</i>. Proceedings of the 32nd ACM International Conference on Multimedia (MM’24).</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="SACT">Yang Liu, J. H. X., Yantao Ji, &amp; Guo, Y. (2024). <i>Spectral Aggregation Cross-Square Transformer for Hyperspectral Image Denoising</i>. The 27th The International Conference on Pattern Recognition, ICPR2024.</span></div> -->
-
-
-
-
-
-<a href="https://4c79.github.io/papers/ICPR24_SACT.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
-
-
-
-
-
-<button class="btn btn-danger btm-sm" onclick="toggleBibtexSACT()">BIB</button>
-
-
-
-<button class="btn btn-warning btm-sm" onclick="toggleAbstractSACT()">ABSTRACT</button>
-
-
-
-<div id="aSACT" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>@inproceedings{SACT,
-  author = {Yang Liu, Yantao Ji, JiaHua Xiao and Guo, Yu},
-  title = {Spectral Aggregation Cross-Square Transformer for Hyperspectral Image Denoising},
-  file = {ICPR24_SACT.pdf},
-  note = {The 27th The International Conference on Pattern Recognition, ICPR2024},
-  year = {2024}
-}
-</pre>
-</div>
-
-
-<div id="bSACT" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>Hyperspectral image(HSI) denoising addresses noise impact during image acquisition. Transformers have gained notable prominence in the field of denoising, but their quadratic self-attention complexity poses computational challenges, hindering global information processing. Classical window-based self-attention limits non-local information flow, hampering large-scale object capture in HSI. Furthermore, spectral variations among neighboring bands introduce redundancy, which burdens the model and diminishes token variability, resulting in over-smoothing in the attention map. To address these issues, we propose a novel method, named Spectral Aggregation Cross-Square Transformer(SACT). We introduce a cross-square self-attention mechanism to enhance information exchange between windows, capturing long-range dependencies within spatial intra-spectrum from multiple perspectives. Spectrally, it extends the attention region horizontally, surrounding, and vertically, exploring omnidirectional spatial correlations among different receptive windows. Additionally, a spatial-spectral aggregation self-attention module is designed to capture global contextual dependencies across spatial and spectral dimensions, reducing spectral redundancy computation. Our method has evaluated synthetic and real hyperspectral datasets and shows SACT’s effectiveness in enhancing both quantitative and qualitative HSI denoising performance.</pre>
-</div>
-
-<script>
-function toggleBibtexSACT(parameter) {
-    var x= document.getElementById('aSACT');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-function toggleAbstractSACT(parameter) {
-    var x= document.getElementById('bSACT');
-    if (x.style.display === 'none') {
-        x.style.display = 'block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</li>
-<li><style>
-.btn{
-    margin-bottom:5px;
-    padding-top:0px;
-    padding-bottom:0px;
-    padding-left:15px;
-    padding-right:15px;
-    height:20px
-}
-
-pre{
-    white-space: pre-wrap;  
-    white-space: -moz-pre-wrap; 
-    white-space: -pre-wrap; 
-    white-space: -o-pre-wrap; 
-    word-wrap: break-word; 
-    width:100%; overflow-x:auto;
-}
-</style>
-
-
-<div class="text-justify"><span id="FIDNET">JiaHua Xiao, Y. L., &amp; Wei, X. (2024). <i>Bridging Fourier and Spatial-Spectral Domains for Hyperspectral Image Denoising</i>. Proceedings of the 32nd ACM International Conference on Multimedia, (MM’24).</span></div>
-
-<!-- You can use the below to make your name bold -->
-<!-- <span id="FIDNET">JiaHua Xiao, Y. L., &amp; Wei, X. (2024). <i>Bridging Fourier and Spatial-Spectral Domains for Hyperspectral Image Denoising</i>. Proceedings of the 32nd ACM International Conference on Multimedia, (MM’24).</span></div> -->
+<!-- <span id="FIDNET">JiaHua Xiao, Y. L., &amp; Wei, X. (2024). <i>Bridging Fourier and Spatial-Spectral Domains for Hyperspectral Image Denoising</i>. Proceedings of the 32nd ACM International Conference on Multimedia (MM’24).</span></div> -->
 
 
 
@@ -293,8 +212,6 @@ pre{
 
 
 
-<button class="btn btn-danger btm-sm" onclick="toggleBibtexFIDNET()">BIB</button>
-
 
 
 <button class="btn btn-warning btm-sm" onclick="toggleAbstractFIDNET()">ABSTRACT</button>
@@ -302,11 +219,11 @@ pre{
 
 
 <div id="aFIDNET" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>@inproceedings{FIDNET,
+<pre>@fidnet{FIDNET,
   author = {JiaHua Xiao, Yang Liu and Wei, Xing},
   title = {Bridging Fourier and Spatial-Spectral Domains for Hyperspectral Image Denoising},
   file = {ACMMM_FIDNet.pdf},
-  note = {Proceedings of the 32nd ACM International Conference on Multimedia, (MM'24)},
+  note = {Proceedings of the 32nd ACM International Conference on Multimedia (MM'24)},
   year = {2024}
 }
 </pre>
@@ -357,10 +274,10 @@ pre{
 </style>
 
 
-<div class="text-justify"><span id="RAS2S">JiaHua Xiao, Y. L., &amp; Wei, X. (2024). <i>Region-Aware Sequence-to-Sequence Learning for Hyperspectral Denoising</i>. The 18th European Conference on Computer Vision, ECCV 2024.</span></div>
+<div class="text-justify"><span id="RAS2S">JiaHua Xiao, Y. L., &amp; Wei, X. (2024). <i>Region-Aware Sequence-to-Sequence Learning for Hyperspectral Denoising</i>. The 18th European Conference on Computer Vision ECCV 2024.</span></div>
 
 <!-- You can use the below to make your name bold -->
-<!-- <span id="RAS2S">JiaHua Xiao, Y. L., &amp; Wei, X. (2024). <i>Region-Aware Sequence-to-Sequence Learning for Hyperspectral Denoising</i>. The 18th European Conference on Computer Vision, ECCV 2024.</span></div> -->
+<!-- <span id="RAS2S">JiaHua Xiao, Y. L., &amp; Wei, X. (2024). <i>Region-Aware Sequence-to-Sequence Learning for Hyperspectral Denoising</i>. The 18th European Conference on Computer Vision ECCV 2024.</span></div> -->
 
 
 
@@ -372,8 +289,6 @@ pre{
 
 
 
-<button class="btn btn-danger btm-sm" onclick="toggleBibtexRAS2S()">BIB</button>
-
 
 
 <button class="btn btn-warning btm-sm" onclick="toggleAbstractRAS2S()">ABSTRACT</button>
@@ -381,11 +296,11 @@ pre{
 
 
 <div id="aRAS2S" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
-<pre>@inproceedings{RAS2S,
+<pre>@ras2s{RAS2S,
   author = {JiaHua Xiao, Yang Liu and Wei, Xing},
   title = {Region-Aware Sequence-to-Sequence Learning for Hyperspectral Denoising},
   file = {ECCV24_RAS2S.pdf},
-  note = {The 18th European Conference on Computer Vision, ECCV 2024},
+  note = {The 18th European Conference on Computer Vision ECCV 2024},
   year = {2024}
 }
 </pre>
@@ -407,6 +322,83 @@ function toggleBibtexRAS2S(parameter) {
 }
 function toggleAbstractRAS2S(parameter) {
     var x= document.getElementById('bRAS2S');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+</script>
+</li>
+<li><style>
+.btn{
+    margin-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
+    padding-left:15px;
+    padding-right:15px;
+    height:20px
+}
+
+pre{
+    white-space: pre-wrap;  
+    white-space: -moz-pre-wrap; 
+    white-space: -pre-wrap; 
+    white-space: -o-pre-wrap; 
+    word-wrap: break-word; 
+    width:100%; overflow-x:auto;
+}
+</style>
+
+
+<div class="text-justify"><span id="SACT">Yang Liu, J. H. X., Yantao Ji, &amp; Guo, Y. (2024). <i>Spectral Aggregation Cross-Square Transformer for Hyperspectral Image Denoising</i>. The 27th The International Conference on Pattern Recognition.</span></div>
+
+<!-- You can use the below to make your name bold -->
+<!-- <span id="SACT">Yang Liu, J. H. X., Yantao Ji, &amp; Guo, Y. (2024). <i>Spectral Aggregation Cross-Square Transformer for Hyperspectral Image Denoising</i>. The 27th The International Conference on Pattern Recognition.</span></div> -->
+
+
+
+
+
+<a href="https://4c79.github.io/papers/ICPR24_SACT.pdf" target="_blank"><button class="btn btn-success btm-sm">PDF</button></a>
+
+
+
+
+
+
+
+<button class="btn btn-warning btm-sm" onclick="toggleAbstractSACT()">ABSTRACT</button>
+
+
+
+<div id="aSACT" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>@sact{SACT,
+  author = {Yang Liu, Yantao Ji, JiaHua Xiao and Guo, Yu},
+  title = {Spectral Aggregation Cross-Square Transformer for Hyperspectral Image Denoising},
+  file = {ICPR24_SACT.pdf},
+  note = {The 27th The International Conference on Pattern Recognition},
+  year = {2024}
+}
+</pre>
+</div>
+
+
+<div id="bSACT" style="display: none; background-color:black; border-radius:5px; padding:10px; margin-bottom:20px;">
+<pre>Hyperspectral image(HSI) denoising addresses noise impact during image acquisition. Transformers have gained notable prominence in the field of denoising, but their quadratic self-attention complexity poses computational challenges, hindering global information processing. Classical window-based self-attention limits non-local information flow, hampering large-scale object capture in HSI. Furthermore, spectral variations among neighboring bands introduce redundancy, which burdens the model and diminishes token variability, resulting in over-smoothing in the attention map. To address these issues, we propose a novel method, named Spectral Aggregation Cross-Square Transformer(SACT). We introduce a cross-square self-attention mechanism to enhance information exchange between windows, capturing long-range dependencies within spatial intra-spectrum from multiple perspectives. Spectrally, it extends the attention region horizontally, surrounding, and vertically, exploring omnidirectional spatial correlations among different receptive windows. Additionally, a spatial-spectral aggregation self-attention module is designed to capture global contextual dependencies across spatial and spectral dimensions, reducing spectral redundancy computation. Our method has evaluated synthetic and real hyperspectral datasets and shows SACT’s effectiveness in enhancing both quantitative and qualitative HSI denoising performance.</pre>
+</div>
+
+<script>
+function toggleBibtexSACT(parameter) {
+    var x= document.getElementById('aSACT');
+    if (x.style.display === 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+function toggleAbstractSACT(parameter) {
+    var x= document.getElementById('bSACT');
     if (x.style.display === 'none') {
         x.style.display = 'block';
     } else {
