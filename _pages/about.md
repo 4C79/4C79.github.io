@@ -17,9 +17,13 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a first-year Ph.D. student at Virginia Tech advisored by [Dr. Peng Gao](https://people.cs.vt.edu/penggao/). My current research centers on LLM for Security—leveraging large language models and AI agents to support cybersecurity tasks such as threat intelligence mining and normalization. Methodologically, I’m interested in retrieval-augmented and tool-augmented LLMs, multi-agent orchestration, and evaluation frameworks that measure security utility rather than just general NLP metrics.
+I am a first-year Ph.D. student at Virginia Tech advised by [Dr. Peng Gao](https://people.cs.vt.edu/penggao/). 
 
-Prior to this, I worked on low-level computer vision, which informs my interest in multimodal analysis and efficient systems.
+I graduated from Chu Kochen Honors College, Zhejiang University (浙江大学竺可桢学院) with a bachelor’s degree and from the Department of Computer Science and Technology, Zhejiang University (浙江大学计算机科学与技术学院) with a master’s degree, advised by Zhou Zhao (赵洲). I also collaborate with Xu Tan (谭旭), Tao Qin (秦涛) and Tie-yan Liu (刘铁岩) from Microsoft Research Asia  closely.
+
+I graduated from College of Information Engineering, Northwest A&F University with a bachelor’s degree and from the Faculty of Electronic and Information Engineering, Xi’an Jiaotong University, advised by Dr. Peilin Jiang and Dr. Yu Guo.
+
+My current research centers on LLM for Security—leveraging large language models and AI agents to support cybersecurity tasks such as threat intelligence mining and normalization. Methodologically, I’m interested in retrieval-augmented and tool-augmented LLMs, multi-agent orchestration, and evaluation frameworks that measure security utility rather than just general NLP metrics. Prior to this, I worked on low-level computer vision, which informs my interest in multimodal analysis and efficient systems.
 
 
 # 🔥 News
