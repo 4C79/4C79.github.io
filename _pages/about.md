@@ -39,9 +39,9 @@ My current research centers on LLM for Security—leveraging large language mode
 
 # 🎖 Honors and Awards
 - *2024* National Scholarship
-- *2024* Tencent scholarship
+- *2024* [Tencent](https://www.tencent.com/en-us/) scholarship
 - *2023* National Scholarship
-- *2023* Shenzhen Stock Exchange scholarship
+- *2023* [Shenzhen Stock Exchange](https://www.szse.cn/English/) scholarship
 - *2019-2022* First-Class Scholarship
 
 # 📖 Educations
