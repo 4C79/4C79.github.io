@@ -19,8 +19,6 @@ redirect_from:
 
 I am a first-year Ph.D. student at Virginia Tech advised by [Dr. Peng Gao](https://people.cs.vt.edu/penggao/). 
 
-I graduated from Chu Kochen Honors College, Zhejiang University (浙江大学竺可桢学院) with a bachelor’s degree and from the Department of Computer Science and Technology, Zhejiang University (浙江大学计算机科学与技术学院) with a master’s degree, advised by Zhou Zhao (赵洲). I also collaborate with Xu Tan (谭旭), Tao Qin (秦涛) and Tie-yan Liu (刘铁岩) from Microsoft Research Asia  closely.
-
 I graduated from College of Information Engineering, Northwest A&F University with a bachelor’s degree and from the Faculty of Electronic and Information Engineering, Xi’an Jiaotong University, advised by Dr. Peilin Jiang and Dr. Yu Guo.
 
 My current research centers on LLM for Security—leveraging large language models and AI agents to support cybersecurity tasks such as threat intelligence mining and normalization. Methodologically, I’m interested in retrieval-augmented and tool-augmented LLMs, multi-agent orchestration, and evaluation frameworks that measure security utility rather than just general NLP metrics. Prior to this, I worked on low-level computer vision, which informs my interest in multimodal analysis and efficient systems.
@@ -31,23 +29,25 @@ My current research centers on LLM for Security—leveraging large language mode
 
 # 📝 Publications 
 
-- [HSIDMamba: Exploring bidirectional state-space models for hyperspectral denoising](https://arxiv.org/abs/2404.09697), Yang Liu, Jiahua Xiao, Xiang Song, Yu Guo, Peilin Jiang, Haiwei Yang, Fei Wang, **arxiv 2024**
+- [HSIDMamba: Exploring bidirectional state-space models for hyperspectral denoising](https://arxiv.org/abs/2404.09697), **Yang Liu**, Jiahua Xiao, Xiang Song, Yu Guo, Peilin Jiang, Haiwei Yang, Fei Wang, **arxiv 2024**
 
-- [Spectral Aggregation Cross-Square Transformer for Hyperspectral Image Denoising](https://link.springer.com/chapter/10.1007/978-3-031-78354-8_29), Yang Liu, Yantao Ji, Jiahua Xiao, Yu Guo, Peilin Jiang, Haiwei Yang, Fei Wang, **ICPR 2024**
+- [Spectral Aggregation Cross-Square Transformer for Hyperspectral Image Denoising](https://link.springer.com/chapter/10.1007/978-3-031-78354-8_29), **Yang Liu**, Yantao Ji, Jiahua Xiao, Yu Guo, Peilin Jiang, Haiwei Yang, Fei Wang, **ICPR 2024**
 
-- [Region-aware sequence-to-sequence learning for hyperspectral denoising](https://link.springer.com/chapter/10.1007/978-3-031-73027-6_13), Jiahua Xiao, Yang Liu, Xing Wei, **ECCV 2024**
+- [Region-aware sequence-to-sequence learning for hyperspectral denoising](https://link.springer.com/chapter/10.1007/978-3-031-73027-6_13), Jiahua Xiao, **Yang Liu**, Xing Wei, **ECCV 2024**
 
-- [Bridging fourier and spatial-spectral domains for hyperspectral image denoising](https://dl.acm.org/doi/abs/10.1145/3664647.3681461), Jiahua Xiao, Yang Liu, Shizhou Zhang, Xing Wei, **ACM MM 2024**
+- [Bridging fourier and spatial-spectral domains for hyperspectral image denoising](https://dl.acm.org/doi/abs/10.1145/3664647.3681461), Jiahua Xiao, **Yang Liu**, Shizhou Zhang, Xing Wei, **ACM MM 2024**
 
 # 🎖 Honors and Awards
 - *2024* National Scholarship
+- *2024* Tencent scholarship
 - *2023* National Scholarship
+- *2023* Shenzhen Stock Exchange scholarship
 - *2019-2022* First-Class Scholarship
 
 # 📖 Educations
-- *2025.09 - now*, Ph.D. Student at Virginia Tech
-- *2022.09 - 2025.06*, M.E. , Xi'an Jiaotong University
-- *2018.09 - 2022.06*, B.E. , Northwest A&F University
+- *2025.09 - now*, Ph.D. Student, Virginia Tech
+- *2022.09 - 2025.06*, M.E., Xi'an Jiaotong University
+- *2018.09 - 2022.06*, B.E., Northwest A&F University
 
 # 📚 Teaching & Research
 - *2025.08 - now*, Graduate Research Assistant | LLM for security | Virginia Tech 
