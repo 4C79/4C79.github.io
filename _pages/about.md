@@ -38,10 +38,10 @@ My current research centers on LLM for Security—leveraging large language mode
 - [Bridging fourier and spatial-spectral domains for hyperspectral image denoising](https://dl.acm.org/doi/abs/10.1145/3664647.3681461), Jiahua Xiao, **Yang Liu**, Shizhou Zhang, Xing Wei, **ACM MM 2024**
 
 # 🎖 Honors and Awards
-- *2024* National Scholarship
-- *2024* [Tencent](https://www.tencent.com/en-us/) scholarship
-- *2023* National Scholarship
-- *2023* [Shenzhen Stock Exchange](https://www.szse.cn/English/) scholarship
+- *2024.11* National Scholarship
+- *2024.10* [Tencent](https://www.tencent.com/en-us/) scholarship
+- *2023.11* National Scholarship
+- *2023.10* [Shenzhen Stock Exchange](https://www.szse.cn/English/) scholarship
 - *2019-2022* First-Class Scholarship
 
 # 📖 Educations
