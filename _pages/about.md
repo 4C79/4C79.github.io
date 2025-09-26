@@ -19,7 +19,7 @@ redirect_from:
 
 I am a first-year Ph.D. student at Virginia Tech advised by [Dr. Peng Gao](https://people.cs.vt.edu/penggao/). 
 
-I graduated from College of Information Engineering, Northwest A&F University with a bachelor’s degree and from the Faculty of Electronic and Information Engineering, Xi’an Jiaotong University, advised by Dr. Peilin Jiang and Dr. Yu Guo.
+I got my master's degree from Faculty of Electronic and Information Engineering, Xi’an Jiaotong University, advised by Dr. Peilin Jiang and Dr. Yu Guo and bachelor’s degree from College of Information Engineering, Northwest A&F University.
 
 My current research centers on LLM for Security—leveraging large language models and AI agents to support cybersecurity tasks such as threat intelligence mining and normalization. Methodologically, I’m interested in retrieval-augmented and tool-augmented LLMs, multi-agent orchestration, and evaluation frameworks that measure security utility rather than just general NLP metrics. Prior to this, I worked on low-level computer vision, which informs my interest in multimodal analysis and efficient systems.
 
